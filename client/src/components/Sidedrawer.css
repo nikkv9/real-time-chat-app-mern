@@ -1,0 +1,56 @@
+.sidedrawer {
+  top: 0;
+  position: sticky;
+  height: 3rem;
+  z-index: 1;
+}
+.sidedrawerContainer {
+  background-color: #f0f8ff;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+.sidedrawerLeft {
+  display: flex;
+  align-items: center;
+  flex: 0.8;
+  padding: 0 1rem;
+  width: 50%;
+}
+.sidedrawerLeft .MuiSvgIcon-root {
+  color: gray;
+}
+.sidedrawerLeft input {
+  border: none;
+  background-color: aliceblue;
+  outline: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.sidedrawerMid {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidedrawerRight {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex: 0.8;
+}
+.sidedrawerRight .MuiSvgIcon-root {
+  margin: 0 2rem;
+  cursor: pointer;
+  color: gray;
+  transition: 0.5s ease;
+}
+.sidedrawerRight .MuiSvgIcon-root:hover {
+  color: unset;
+}
+.menuOpt {
+  background-color: aliceblue;
+  padding: 1rem;
+}

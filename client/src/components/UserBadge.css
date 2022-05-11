@@ -1,0 +1,12 @@
+.userbadge {
+  cursor: "pointer";
+  display: "flex";
+  align-items: "center";
+  justify-content: "center";
+  background-color: "purple";
+  color: "white";
+  padding: "0.1rem 0.8rem";
+  padding-bottom: ".5rem";
+  border-radius: ".5rem";
+  margin-left: "1rem";
+}

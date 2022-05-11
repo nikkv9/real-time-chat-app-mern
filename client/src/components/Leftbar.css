@@ -1,0 +1,20 @@
+.leftbar {
+  padding: 1rem;
+  background-color: rgb(234, 234, 234);
+  margin: 1rem;
+  overflow-y: scroll;
+  flex: 2;
+}
+.leftbarBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.leftbarBox .button {
+  text-transform: none;
+}
+
+.leftbar .leftbarChat {
+  display: flex;
+  flex-direction: column;
+}

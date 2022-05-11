@@ -1,0 +1,80 @@
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(0, 69, 133);
+}
+.signupContainer {
+  background-color: rgb(238, 238, 238);
+  padding: 4rem 0;
+  width: 40%;
+}
+.signupContainer h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: rgb(3, 103, 197);
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+
+  /* width: 100%; */
+}
+.inputContainer input {
+  background-color: rgb(238, 238, 238);
+  margin-bottom: 1rem;
+  padding: 0.8rem 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid rgb(3, 103, 197);
+  outline: none;
+  letter-spacing: 0.08rem;
+  width: 70%;
+  font-size: 0.9rem;
+  -webkit-text-fill-color: rgb(3, 103, 197);
+}
+.pass {
+  display: flex;
+  align-items: center;
+  width: 75%;
+}
+.inputContainer .pass .passShow {
+  background: none;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  width: 5rem;
+  /* border: none; */
+}
+
+.inputContainer button {
+  padding: 0.7rem 0;
+  width: 40%;
+  font-size: 0.9rem;
+  background-color: rgb(3, 103, 197);
+  color: white;
+  border: 1px solid rgb(92, 176, 255);
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: 0.5s ease;
+  letter-spacing: 0.05rem;
+  margin-top: 1em;
+}
+.inputContainer button:hover {
+  background-color: rgb(26, 123, 214);
+  transform: scale(1.05);
+}
+
+.inputContainer p {
+  margin-top: 1rem;
+  transition: 0.5s ease;
+}
+.inputContainer p:hover {
+  transform: scale(1.03);
+}
